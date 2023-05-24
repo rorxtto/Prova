@@ -1,0 +1,200 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-family: Inter;
+    background-color: #043873;
+}
+
+#header {
+display: flex;
+justify-content: space-around;
+padding-top: 5vh;
+}
+
+#logo{
+    display: flex;
+}
+
+#img-logo{
+    width:44px ;
+    height: 40px;
+}
+
+#titulo-logo{
+    color: white;
+    font-size: 20px;
+    margin: 0px;
+    justify-content: flex-end;
+    margin-top: 1.5vh;
+}
+
+#botao-header{
+    background-color: #043873;
+    border: none;
+    width: 8vw; 
+    height: 7.5vh;
+    color: white;
+    font-size: 18px;
+}
+
+#botao-login{
+    background-color: #FFE492;
+    color: #043873;
+    border: none;
+    width: 8vw; 
+    height: 7.5vh;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-left: 5vw;
+}
+
+#botao-try{
+    background-color: #4F9CF9;
+    color: white;
+    border: none;
+    width: 13vw; 
+    height: 7.5vh;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-left: 1vw;
+}
+
+#article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 100vh;
+}
+
+#linhas{
+    width: 105vw ;
+    height: 100vh ;
+}
+
+#div-article{
+    position: absolute;
+}
+
+#titulo-article{
+    font-size: 64px;
+    color: white;
+    margin: 0;
+}
+
+#paragrafo-article{
+    font-size: 18px;
+    color: white;
+}
+
+#botao-article{
+    background-color:#4F9CF9;
+    border: none;
+    width: 18vw;
+    height: 7.5vh;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    margin-top: 7vh;
+}
+
+#article2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+#div-article2{
+    display: flex;
+}
+
+#titulo-pg2{
+    font-size: 72px;
+    color: #212529;
+    margin: 0px;
+}
+
+#paragrafo-pg2{
+    font-size: 18px;
+    color: #212529;
+}
+
+#botao-pg2{
+    width: 15vw;
+    height: 7vh;
+    background-color: #4F9CF9;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+    border: none;
+    margin-top: 5vh;
+}
+
+#div-article2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    
+}
+
+#logocentral{
+    background-color: black;
+    width: 8vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+
+#logocentral:hover{
+    background-color: black;
+    width: 8vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 50px -11px rgba(0, 0, 0, 0.25);
+}
+
+#sistema-solar{
+    width: 600px;
+    height: 550px;
+
+}
+
+#img-logocentral{
+    width: 75px;
+    height: 75px;
+    
+}
+
+#imgs-article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#footer{
+    display: flex;
+    justify-content: space-around;
+    font-style: 16px;
+    color: white;
+}
+
+#img-redesociais{
+    width: 175px;
+    height: 60px;
+}
+
+
