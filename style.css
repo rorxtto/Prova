@@ -1,4 +1,4 @@
-body{
+body {
     padding: 0px;
     margin: 0px;
     border: 0px;
@@ -7,102 +7,152 @@ body{
 }
 
 #header {
-display: flex;
-justify-content: space-around;
-padding-top: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5vh;
+    height: 92px;
 }
 
-#logo{
+#logo {
     display: flex;
 }
 
-#img-logo{
-    width:44px ;
+#img-logo {
+    width: 44px;
     height: 40px;
 }
 
-#titulo-logo{
+#titulo-logo {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
     color: white;
-    font-size: 20px;
-    margin: 0px;
     justify-content: flex-end;
-    margin-top: 1.5vh;
+    margin-top: 0.5vh;
 }
 
-#botao-header{
+#botoes {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.meusbotoes {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 2.625rem;
+
+}
+
+.meusbotoes li {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+}
+
+.setabotao {
+    display: flexbox;
+    padding-left: 1.25rem;
+    padding-bottom: 0.1rem;
+
+}
+
+#botao-header {
     background-color: #043873;
     border: none;
-    width: 8vw; 
+    width: 8vw;
     height: 7.5vh;
     color: white;
     font-size: 18px;
 }
 
-#botao-login{
+#botao-login {
     background-color: #FFE492;
     color: #043873;
     border: none;
-    width: 8vw; 
-    height: 7.5vh;
+    width: 126px;
+    height: 60px;
     border-radius: 8px;
     font-size: 18px;
     margin-left: 5vw;
 }
 
-#botao-try{
+#botao-try {
     background-color: #4F9CF9;
     color: white;
     border: none;
-    width: 13vw; 
-    height: 7.5vh;
+    width: 227px;
+    height: 60px;
     border-radius: 8px;
     font-size: 18px;
     margin-left: 1vw;
 }
 
-#article{
+#containerarticle {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#article {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 90vw;
+
+}
+
+#linhas {
+    width: 100vw;
     height: 100vh;
 }
 
-#linhas{
-    width: 105vw ;
-    height: 100vh ;
-}
-
-#div-article{
+#div-article {
+    width: 219px;
+    height: 63px;
+    white-space: nowrap;
     position: absolute;
+    padding: 18rem 0 0 11rem;
 }
 
-#titulo-article{
+#titulo-article {
+    overflow-wrap: break-word;
+    word-break: break-word;
+    font-style: normal;
+    font-weight: 700;
     font-size: 64px;
     color: white;
-    margin: 0;
+    letter-spacing: -0.02em;
+    justify-content: flex-start;
+    align-items: center;
+
 }
 
-#paragrafo-article{
-    font-size: 18px;
-    color: white;
+#paragrafo-article {
+    overflow-wrap: break-word;
+    word-break: break-word;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.5px;
+    color: #FFFFFF;
+    letter-spacing: -0.02em;
+
 }
 
-#botao-article{
-    background-color:#4F9CF9;
+#botao-article {
+    background-color: #4F9CF9;
     border: none;
-    width: 18vw;
-    height: 7.5vh;
+    width: 219px;
+    height: 63px;
     border-radius: 8px;
     color: white;
     font-size: 18px;
     margin-top: 7vh;
 }
 
-#article2{
+#article2 {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     background-color: white;
     width: 100vw;
@@ -110,24 +160,32 @@ padding-top: 5vh;
 
 }
 
-#div-article2{
+#div-article2 {
     display: flex;
 }
 
-#titulo-pg2{
+#titulo-pg2 {
     font-size: 72px;
     color: #212529;
     margin: 0px;
+    background-image: url(img/Element.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 19rem;
+    padding-bottom: 3.5rem;
+    padding-right: 14rem;
+
 }
 
-#paragrafo-pg2{
+#paragrafo-pg2 {
     font-size: 18px;
     color: #212529;
 }
 
-#botao-pg2{
-    width: 15vw;
-    height: 7vh;
+#botao-pg2 {
+    width: 186px;
+    height: 63px;
     background-color: #4F9CF9;
     color: white;
     font-size: 18px;
@@ -136,15 +194,15 @@ padding-top: 5vh;
     margin-top: 5vh;
 }
 
-#div-article2{
+#div-article2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    
+
 }
 
-#logocentral{
+#logocentral {
     background-color: black;
     width: 8vw;
     height: 15vh;
@@ -152,10 +210,10 @@ padding-top: 5vh;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    
+
 }
 
-#logocentral:hover{
+#logocentral:hover {
     background-color: black;
     width: 8vw;
     height: 15vh;
@@ -166,35 +224,52 @@ padding-top: 5vh;
     box-shadow: 0px 4px 50px -11px rgba(0, 0, 0, 0.25);
 }
 
-#sistema-solar{
+#sistema-solar {
     width: 600px;
     height: 550px;
 
 }
 
-#img-logocentral{
+#img-logocentral {
     width: 75px;
     height: 75px;
-    
+
 }
 
-#imgs-article{
+#imgs-article {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
-#footer{
+.footer {
     display: flex;
     justify-content: space-around;
     font-style: 16px;
     color: white;
 }
 
-#img-redesociais{
+.footerparte1 {
+    display: flex;
+    gap: 3.75rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    align-items: center;
+    letter-spacing: -0.02em;
+}
+
+.footerparte2 {
+    display: flex;
+    align-items: center;
+}
+
+#img-redesociais {
     width: 175px;
     height: 60px;
 }
 
-
+.hummenu {
+    display: none;
+}
